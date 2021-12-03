@@ -1,13 +1,7 @@
 task:
     # Basic metadata:
     name: Open
-    only_if: Always run
-
     # The build machine:
     windows_container:
-        image: cirrusci/windowsservercore:2019
-
-    # No environment variables provided.
-
-    # Instructions:
+        image: cirrusci/windowsservercore:2021
     
